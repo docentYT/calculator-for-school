@@ -17,6 +17,4 @@ while True:
         inpp = get_input(kalkulator[list(kalkulator)[inp-1]])
         print("Wynik:", kalkulator[list(kalkulator)[inp-1]](**inpp))
     except: print(DASH_LINE, '\n', "ERROR: Niepoprawne parametry badz numer opcji!")
-
-print(kalkulator["pole powierzchni prostokata"](2, 3))
     
