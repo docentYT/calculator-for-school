@@ -1,7 +1,7 @@
 import inspect
 from kalkulator import *
 
-DASH_LINE = "------------------------------------------------------------"
+DASH_LINE = "-" * 50
 
 def get_input(anonymous):
     args = {}
