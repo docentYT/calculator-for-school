@@ -14,7 +14,5 @@ while True:
     try:
         inp = int(input("| Wpisz numer opcji lub \'0\' aby wyjsc: "))
         if inp == 0: break
-        inpp = get_input(kalkulator[list(kalkulator)[inp-1]])
-        print("Wynik:", kalkulator[list(kalkulator)[inp-1]](**inpp))
+        print("Wynik:", kalkulator[list(kalkulator)[inp-1]]( **get_input(kalkulator[list(kalkulator)[inp-1]]) ))
     except: print(DASH_LINE, '\n', "ERROR: Niepoprawne parametry badz numer opcji!")
-    
