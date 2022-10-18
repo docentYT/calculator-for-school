@@ -1,6 +1,6 @@
 from math import pi, sqrt
 
-kalkulator = {
+calculator = {
     "pole powierzchni prostokata": lambda a, b : a*b ,
     "pole powierzchni prostopadloscianu": lambda a, b, c : 2*a*b + 2*a*c + 2*b*c ,
     "objetosc prostopadloscianu": lambda a, b, h : a*b * h ,
